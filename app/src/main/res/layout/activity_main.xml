@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.android.studycase1202154119.MainActivity">
+
+    <TextView
+        android:id="@+id/makan_malam_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/makan_malam_textview"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/dengan_milea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="dengan Milea"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/menu_edittext"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="@string/menu_hint"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/porsi_edittext"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/menu_edittext"
+        android:layout_alignStart="@+id/menu_edittext"
+        android:layout_below="@+id/menu_edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/porsi_edittext"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/eatbus_button"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/porsi_edittext"
+        android:layout_alignStart="@+id/porsi_edittext"
+        android:layout_below="@+id/porsi_edittext"
+        android:layout_marginTop="30dp"
+        android:background="#ff4282"
+        android:text="@string/eatbus_button"
+        android:textColor="@android:color/white"
+        android:onClick="functionEatbus"/>
+
+    <Button
+        android:id="@+id/abnormal_button"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/eatbus_button"
+        android:layout_alignBottom="@+id/eatbus_button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#ff4282"
+        android:text="@string/abnormal_button"
+        android:textColor="@android:color/white"
+        android:onClick="functionAbnormal"/>
+
+</RelativeLayout>

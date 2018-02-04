@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StudyCase_1202154119</string>
+    <string name="judul_besar">Makan Malam</string>
+    <string name="eatbus_button">EATBUS</string>
+    <string name="abnormal_button">ABNORMAL</string>
+    <string name="menu_edittext">Menu</string>
+    <string name="porsi_edittext">Porsi</string>
+    <string name="makan_malam_textview">Makan Malam</string>
+    <string name="menu_hint">Menu</string>
+
+    <string name="makan_malam_second">0</string>
+    <string name="menu_second">0</string>
+    <string name="porsi_second">0</string>
+    <string name="harga_second">0</string>
+</resources>
