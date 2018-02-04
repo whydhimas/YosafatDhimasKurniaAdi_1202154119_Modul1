@@ -6,7 +6,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context="com.example.android.studycase1202154119.MainActivity">
+    tools:context="com.example.android.YosafatDhimasKurniaAdi_1202154119_Modul1.MainActivity">
 
     <TextView
         android:id="@+id/makan_malam_main"

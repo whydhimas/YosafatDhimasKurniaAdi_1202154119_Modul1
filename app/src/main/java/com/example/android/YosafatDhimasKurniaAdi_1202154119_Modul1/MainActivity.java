@@ -1,4 +1,4 @@
-package com.example.android.studycase1202154119;
+package com.example.android.YosafatDhimasKurniaAdi_1202154119_Modul1;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
